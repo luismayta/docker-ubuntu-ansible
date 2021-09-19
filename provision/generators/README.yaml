@@ -5,13 +5,13 @@
 #
 
 # Name of this project
-name: docker-template
+name: docker-ubuntu-ansible
 
 email:
   support: support@hadenlabs.com
 
 confluence:
-  space: DOCKER-TEMPLATE
+  space: DOCKER-UBUNTU-ANSIBLE
   title: readme
 
 # Logo for this project
@@ -21,16 +21,16 @@ confluence:
 license: 'LGPL-3.0'
 
 # Canonical GitHub repo
-github_repo: hadenlabs/docker-template
+github_repo: hadenlabs/docker-ubuntu-ansible
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/docker-template
-    url: https://github.com/hadenlabs/docker-template/releases
+    image: https://img.shields.io/github/release/hadenlabs/docker-ubuntu-ansible
+    url: https://github.com/hadenlabs/docker-ubuntu-ansible/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/docker-template/lint-code
-    url: https://github.com/hadenlabs/docker-template/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/docker-ubuntu-ansible/lint-code
+    url: https://github.com/hadenlabs/docker-ubuntu-ansible/actions?workflow=lint-code
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -44,13 +44,7 @@ badges:
 # Short description of this project
 description: |-
 
-  docker-template for project
-
-  ### Replace name project to New Project
-
-  ```bash
-    agr 'docker-template' 'new-project'
-  ```
+  docker-ubuntu-ansible for project
 
 requirements: |-
 
