@@ -1,4 +1,4 @@
-<!-- Space: DOCKER-TEMPLATE -->
+<!-- Space: DOCKER-UBUNTU-ANSIBLE -->
 <!-- Title: Code Of Conduct -->
 
 # Contributor Covenant Code of Conduct
