@@ -1,0 +1,61 @@
+---
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name: docker-template
+
+email:
+  support: support@hadenlabs.com
+
+confluence:
+  space: DOCKER-TEMPLATE
+  title: readme
+
+# Logo for this project
+#logo: docs/logo.png
+
+# License of this project
+license: 'LGPL-3.0'
+
+# Canonical GitHub repo
+github_repo: hadenlabs/docker-template
+
+# Badges to display
+badges:
+  - name: Latest Release
+    image: https://img.shields.io/github/release/hadenlabs/docker-template
+    url: https://github.com/hadenlabs/docker-template/releases
+  - name: Lint
+    image: https://img.shields.io/github/workflow/status/hadenlabs/docker-template/lint-code
+    url: https://github.com/hadenlabs/docker-template/actions?workflow=lint-code
+  - name: pre-commit
+    image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
+    url: https://github.com/pre-commit/pre-commit
+  - name: Conventional Commits
+    image: https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow
+    url: https://conventionalcommits.org
+  - name: KeepAChangelog
+    image: https://img.shields.io/badge/Keep%20A%20Changelog-1.0.0-%23E05735
+    url: https://keepachangelog.com
+
+# Short description of this project
+description: |-
+
+  docker-template for project
+
+  ### Replace name project to New Project
+
+  ```bash
+    agr 'docker-template' 'new-project'
+  ```
+
+requirements: |-
+
+  This is a list of plugins that need to be installed previously to enjoy all the goodies of this configuration:
+
+  - [docker](https://www.docker.com)
+  - [python](https://www.python.org)
+  - [taskfile](https://github.com/go-task/task)
